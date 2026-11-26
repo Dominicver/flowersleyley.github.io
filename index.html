@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#050914">
+    <meta name="description" content="A blue animated birthday bouquet for Leyley.">
+    <title>Happy 16th Birthday, Leyley!</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <main class="birthday" aria-labelledby="birthday-message">
+      <canvas id="bouquet" aria-hidden="true"></canvas>
+      <section class="greeting" aria-label="Birthday greeting">
+        <h1 id="birthday-message">HAPPY 16TH BIRTHDAY, LEYLEY! i hope you like it.</h1>
+        <p class="signature">from domi</p>
+      </section>
+      <p class="sr-only" id="motion-help">Press P or Space to pause or resume the animation.</p>
+      <p class="sr-only" id="motion-status" aria-live="polite"></p>
+    </main>
+    <script src="script.js" defer></script>
+  </body>
+</html>
